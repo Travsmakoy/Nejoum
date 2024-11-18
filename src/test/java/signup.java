@@ -11,7 +11,6 @@ public class signup extends functions{
         click(By.xpath("//*[@id=\"__next\"]/div/div[4]/form/button"));
         Thread.sleep(1000);
         clickandsend(By.xpath("//*[@id=\"company_name\"]"),"Test Company");
-
     }
     @Test(priority = 2)
     public void SubmitForm(){

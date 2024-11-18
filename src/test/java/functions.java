@@ -88,5 +88,4 @@ public class functions {
         Assert.assertEquals(actual, expectedValue);
         Allure.step(expectedValue+" REQUIRED FIELDS / TOAST IS SHOWING");
     }
-
 }
